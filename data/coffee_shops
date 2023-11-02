@@ -1,0 +1,52 @@
+[
+    {
+        "name": "Cafeteria Industrial",
+        "lat": 41.399175,
+        "lon": 2.195368
+    },
+    {
+        "name": "L'Estoneta",
+        "lat": 41.399145,
+        "lon": 2.188496
+    },
+    {
+        "name": "Espai Joliu",
+        "lat": 41.398735,
+        "lon": 2.195069
+    },
+    {
+        "name": "Cafeteria Botanica",
+        "lat": 41.398044,
+        "lon": 2.191915
+    },
+    {
+        "name": "SKYE Coffee Co",
+        "lat": 41.396937,
+        "lon": 2.191519
+    },
+    {
+        "name": "Classic Bar Cafeteria",
+        "lat": 41.395408,
+        "lon": 2.187203
+    },
+    {
+        "name": "Cafeteria Bar BAU",
+        "lat": 41.397524,
+        "lon": 2.196263
+    },
+    {
+        "name": "N\u00f8mad Roaster's Home",
+        "lat": 41.397977,
+        "lon": 2.195589
+    },
+    {
+        "name": "Rebeka",
+        "lat": 41.396763,
+        "lon": 2.18902
+    },
+    {
+        "name": "Syra Coffee Poblenou",
+        "lat": 41.396518,
+        "lon": 2.19417
+    }
+]
