@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_72781524f434f842fb673f43bf530f76 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_72781524f434f842fb673f43bf530f76" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_72781524f434f842fb673f43bf530f76 = L.map(
+                "map_72781524f434f842fb673f43bf530f76",
+                {
+                    center: [41.392874, 2.173412],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 15,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_4bad2677793d9fcdd7813eaecbb75099 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca target=\"_blank\" href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca target=\"_blank\" href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_72781524f434f842fb673f43bf530f76);
+        
+    
+            var marker_eda8feace9b0ae807604246b19b58969 = L.marker(
+                [41.392874, 2.173412],
+                {}
+            ).addTo(map_72781524f434f842fb673f43bf530f76);
+        
+    
+        var popup_3d9beafa8d35cce248f569ea580ecf6b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b0897085dfcb2c541fa333cdc498e88a = $(`<div id="html_b0897085dfcb2c541fa333cdc498e88a" style="width: 100.0%; height: 100.0%;">Mo'no Caffè</div>`)[0];
+                popup_3d9beafa8d35cce248f569ea580ecf6b.setContent(html_b0897085dfcb2c541fa333cdc498e88a);
+            
+        
+
+        marker_eda8feace9b0ae807604246b19b58969.bindPopup(popup_3d9beafa8d35cce248f569ea580ecf6b)
+        ;
+
+        
+    
+    
+            var marker_a5949474ca61bdb183ba7b031f6c03c4 = L.marker(
+                [41.393614, 2.169268],
+                {}
+            ).addTo(map_72781524f434f842fb673f43bf530f76);
+        
+    
+        var popup_b60522ea8f90d5bbf9faaa21d8dc1bfd = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7de5182570cdf88eea774e450b3dee38 = $(`<div id="html_7de5182570cdf88eea774e450b3dee38" style="width: 100.0%; height: 100.0%;">Eroica Caffè Barcelona</div>`)[0];
+                popup_b60522ea8f90d5bbf9faaa21d8dc1bfd.setContent(html_7de5182570cdf88eea774e450b3dee38);
+            
+        
+
+        marker_a5949474ca61bdb183ba7b031f6c03c4.bindPopup(popup_b60522ea8f90d5bbf9faaa21d8dc1bfd)
+        ;
+
+        
+    
+    
+            var marker_5a5ac6f583c1561ef84f2420f33fb551 = L.marker(
+                [41.377339, 2.162449],
+                {}
+            ).addTo(map_72781524f434f842fb673f43bf530f76);
+        
+    
+        var popup_d266fec4faf19925bb4f0db3cd5d1308 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_08ac7218cb6b84ef03c6daa60f52576c = $(`<div id="html_08ac7218cb6b84ef03c6daa60f52576c" style="width: 100.0%; height: 100.0%;">Il Capriccio del Caffe</div>`)[0];
+                popup_d266fec4faf19925bb4f0db3cd5d1308.setContent(html_08ac7218cb6b84ef03c6daa60f52576c);
+            
+        
+
+        marker_5a5ac6f583c1561ef84f2420f33fb551.bindPopup(popup_d266fec4faf19925bb4f0db3cd5d1308)
+        ;
+
+        
+    
+    
+            var marker_6b81c2904e41b2b424b795dac31adb32 = L.marker(
+                [41.392576, 2.200383],
+                {}
+            ).addTo(map_72781524f434f842fb673f43bf530f76);
+        
+    
+        var popup_f479fa615915409582246f45205d9006 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_132cb75f5f17a9f836bc2161e273da1b = $(`<div id="html_132cb75f5f17a9f836bc2161e273da1b" style="width: 100.0%; height: 100.0%;">Garden Caffé</div>`)[0];
+                popup_f479fa615915409582246f45205d9006.setContent(html_132cb75f5f17a9f836bc2161e273da1b);
+            
+        
+
+        marker_6b81c2904e41b2b424b795dac31adb32.bindPopup(popup_f479fa615915409582246f45205d9006)
+        ;
+
+        
+    
+    
+            var marker_3d232cdce892c49eed902416f1486a0f = L.marker(
+                [41.399003, 2.156334],
+                {}
+            ).addTo(map_72781524f434f842fb673f43bf530f76);
+        
+    
+        var popup_8c108c90c8cb5089e88bb1ab4ece38e3 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f575aac5a62957ae93f7fc5bc1725822 = $(`<div id="html_f575aac5a62957ae93f7fc5bc1725822" style="width: 100.0%; height: 100.0%;">Oh! Caffe</div>`)[0];
+                popup_8c108c90c8cb5089e88bb1ab4ece38e3.setContent(html_f575aac5a62957ae93f7fc5bc1725822);
+            
+        
+
+        marker_3d232cdce892c49eed902416f1486a0f.bindPopup(popup_8c108c90c8cb5089e88bb1ab4ece38e3)
+        ;
+
+        
+    
+    
+            var marker_a6cb521f48e328d4bc3f34ea346be2bb = L.marker(
+                [41.402081, 2.15315],
+                {}
+            ).addTo(map_72781524f434f842fb673f43bf530f76);
+        
+    
+        var popup_b8bf71050e578fcdbf4a046d646f48ec = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c24b1a60045878c7cf97e4845f7e5ac0 = $(`<div id="html_c24b1a60045878c7cf97e4845f7e5ac0" style="width: 100.0%; height: 100.0%;">Antico Caffè</div>`)[0];
+                popup_b8bf71050e578fcdbf4a046d646f48ec.setContent(html_c24b1a60045878c7cf97e4845f7e5ac0);
+            
+        
+
+        marker_a6cb521f48e328d4bc3f34ea346be2bb.bindPopup(popup_b8bf71050e578fcdbf4a046d646f48ec)
+        ;
+
+        
+    
+    
+            var marker_aa3a03cc6b17e30820392612dc0f0968 = L.marker(
+                [41.402328, 2.172256],
+                {}
+            ).addTo(map_72781524f434f842fb673f43bf530f76);
+        
+    
+        var popup_22711e11b23041bd40ced5543ee8a2bb = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b03c07a2cee1ac2048245c3832150c49 = $(`<div id="html_b03c07a2cee1ac2048245c3832150c49" style="width: 100.0%; height: 100.0%;">Piacere Caffe</div>`)[0];
+                popup_22711e11b23041bd40ced5543ee8a2bb.setContent(html_b03c07a2cee1ac2048245c3832150c49);
+            
+        
+
+        marker_aa3a03cc6b17e30820392612dc0f0968.bindPopup(popup_22711e11b23041bd40ced5543ee8a2bb)
+        ;
+
+        
+    
+    
+            var marker_783fd96663a337955d084c534194f6c6 = L.marker(
+                [41.393095, 2.16426],
+                {}
+            ).addTo(map_72781524f434f842fb673f43bf530f76);
+        
+    
+        var popup_8af732bbe34b79d96a32bacb2bca1fe0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_038702a9096d1a9bbbf062ab90b48735 = $(`<div id="html_038702a9096d1a9bbbf062ab90b48735" style="width: 100.0%; height: 100.0%;">Il Caffé di Francesco</div>`)[0];
+                popup_8af732bbe34b79d96a32bacb2bca1fe0.setContent(html_038702a9096d1a9bbbf062ab90b48735);
+            
+        
+
+        marker_783fd96663a337955d084c534194f6c6.bindPopup(popup_8af732bbe34b79d96a32bacb2bca1fe0)
+        ;
+
+        
+    
+    
+            var marker_03f5c237692a96228f235c76d6a90f47 = L.marker(
+                [41.4027, 2.158435],
+                {}
+            ).addTo(map_72781524f434f842fb673f43bf530f76);
+        
+    
+        var popup_a21c1b16b59091e0eaf60a9a59e091f8 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_66743fb811735d21079921d7f850f425 = $(`<div id="html_66743fb811735d21079921d7f850f425" style="width: 100.0%; height: 100.0%;">Gelateria Caffetteria Italiana</div>`)[0];
+                popup_a21c1b16b59091e0eaf60a9a59e091f8.setContent(html_66743fb811735d21079921d7f850f425);
+            
+        
+
+        marker_03f5c237692a96228f235c76d6a90f47.bindPopup(popup_a21c1b16b59091e0eaf60a9a59e091f8)
+        ;
+
+        
+    
+    
+            var marker_2c6423656cc48a4158c628a264d0dbca = L.marker(
+                [41.390901, 2.165257],
+                {}
+            ).addTo(map_72781524f434f842fb673f43bf530f76);
+        
+    
+        var popup_67e9e085b385121f1cc84553a53e5720 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a8655c453378a2440086b9d2db61afcf = $(`<div id="html_a8655c453378a2440086b9d2db61afcf" style="width: 100.0%; height: 100.0%;">Il Caffe Di Francesco</div>`)[0];
+                popup_67e9e085b385121f1cc84553a53e5720.setContent(html_a8655c453378a2440086b9d2db61afcf);
+            
+        
+
+        marker_2c6423656cc48a4158c628a264d0dbca.bindPopup(popup_67e9e085b385121f1cc84553a53e5720)
+        ;
+
+        
+    
+</script>
+</html>

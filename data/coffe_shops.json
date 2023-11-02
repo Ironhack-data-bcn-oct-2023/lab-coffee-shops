@@ -1,0 +1,52 @@
+[
+    {
+        "name": "Mo'no Caff\u00e8",
+        "lat": 41.392874,
+        "lng": 2.173412
+    },
+    {
+        "name": "Eroica Caff\u00e8 Barcelona",
+        "lat": 41.393614,
+        "lng": 2.169268
+    },
+    {
+        "name": "Il Capriccio del Caffe",
+        "lat": 41.377339,
+        "lng": 2.162449
+    },
+    {
+        "name": "Garden Caff\u00e9",
+        "lat": 41.392576,
+        "lng": 2.200383
+    },
+    {
+        "name": "Oh! Caffe",
+        "lat": 41.399003,
+        "lng": 2.156334
+    },
+    {
+        "name": "Antico Caff\u00e8",
+        "lat": 41.402081,
+        "lng": 2.15315
+    },
+    {
+        "name": "Piacere Caffe",
+        "lat": 41.402328,
+        "lng": 2.172256
+    },
+    {
+        "name": "Il Caff\u00e9 di Francesco",
+        "lat": 41.393095,
+        "lng": 2.16426
+    },
+    {
+        "name": "Gelateria Caffetteria Italiana",
+        "lat": 41.4027,
+        "lng": 2.158435
+    },
+    {
+        "name": "Il Caffe Di Francesco",
+        "lat": 41.390901,
+        "lng": 2.165257
+    }
+]
