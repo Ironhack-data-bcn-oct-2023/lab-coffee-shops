@@ -1,52 +1,52 @@
 [
     {
-        "name": "Mo'no Caff\u00e8",
-        "lat": 41.392874,
-        "lng": 2.173412
+        "name": "Three Marks Coffee",
+        "lat": 41.397168,
+        "lng": 2.183123
     },
     {
-        "name": "Eroica Caff\u00e8 Barcelona",
-        "lat": 41.393614,
-        "lng": 2.169268
+        "name": "N\u00f8mad Roaster's Home",
+        "lat": 41.397977,
+        "lng": 2.195589
     },
     {
-        "name": "Il Capriccio del Caffe",
-        "lat": 41.377339,
-        "lng": 2.162449
+        "name": "Brew Coffee",
+        "lat": 41.394562,
+        "lng": 2.178425
     },
     {
-        "name": "Garden Caff\u00e9",
-        "lat": 41.392576,
-        "lng": 2.200383
+        "name": "El Petit Pr\u00edncep",
+        "lat": 41.396371,
+        "lng": 2.177069
     },
     {
-        "name": "Oh! Caffe",
-        "lat": 41.399003,
-        "lng": 2.156334
+        "name": "Funky Bakers",
+        "lat": 41.394916,
+        "lng": 2.172866
     },
     {
-        "name": "Antico Caff\u00e8",
-        "lat": 41.402081,
-        "lng": 2.15315
+        "name": "N\u00f8mad Coffee Lab & Shop",
+        "lat": 41.388989,
+        "lng": 2.177167
     },
     {
-        "name": "Piacere Caffe",
-        "lat": 41.402328,
-        "lng": 2.172256
+        "name": "Caf\u00e9s el Magn\u00edfico",
+        "lat": 41.383541,
+        "lng": 2.180957
     },
     {
-        "name": "Il Caff\u00e9 di Francesco",
-        "lat": 41.393095,
-        "lng": 2.16426
+        "name": "Federal",
+        "lat": 41.399656,
+        "lng": 2.205785
     },
     {
-        "name": "Gelateria Caffetteria Italiana",
-        "lat": 41.4027,
-        "lng": 2.158435
+        "name": "El Born",
+        "lat": 41.384704,
+        "lng": 2.182978
     },
     {
-        "name": "Il Caffe Di Francesco",
-        "lat": 41.390901,
-        "lng": 2.165257
+        "name": "Bornet",
+        "lat": 41.38483,
+        "lng": 2.180255
     }
 ]
